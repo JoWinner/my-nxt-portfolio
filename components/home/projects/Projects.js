@@ -48,6 +48,40 @@ const projects = [
     ),
   },
   {
+    title: "BlockPager Dapp",
+    imgSrc: "project-imgs/connect.png",
+    code: "[Currently set to private repo]",
+    projectLink: "https://blockpager.vercel.app/",
+    tech: ["Solidity", "Hardhat", "Tailwind CSS", "Ethers"],
+    description:
+      "[Repo is currently private]. Multi-user content creating and sharing app on the blockchain.A decentralized application which fully operates with a smart contract on the Polygon-Ethereum network providing users full access and control over content creation.",
+    modalContent: (
+      <>
+        <p>
+          This is a decentralized application (dApp) that facilitates the
+          creation, purchase,sale,read,transfer and burn of digital content
+          using blockchain technology. It offers options for creating personal
+          and public content
+        </p>
+        <p>
+          Users can create, burn and transfer it as transferring a token on the
+          blockchain network to other users. They can also set maximum number of
+          reads for personal content(controlled access). It can serve as an
+          email service on the blockchain-  block-mail.
+        </p>
+        <p>
+          By creating public content, creators earn tokens by setting a fee on
+          their content. Therefore other users pay the fees to access their
+          creation.
+        </p>
+        <p>
+          The dApp is built with on Ethereum-Polygon network, Hardhat, React.js,
+          IPFS and Solidity smart contract. [Repo is currently private]
+        </p>
+      </>
+    ),
+  },
+  {
     title: "Builder Site",
     imgSrc: "project-imgs/builder-site.png",
     code: "https://github.com/JoWinner/builder-site",

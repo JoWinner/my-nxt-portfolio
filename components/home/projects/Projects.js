@@ -16,7 +16,23 @@ export const Projects = () => {
   );
 };
 
-const projects = [
+const projects = [{
+  title: "Bento Blocks",
+  imgSrc: "project-imgs/bento-blocks.png",
+  code: "https://github.com/JoWinner/bento-blocks",
+  projectLink: "https://bento-blocks.vercel.app/",
+  tech: ["NextJS, Tailwind CSS, NextUI"],
+  description:
+    "Blocks of bentos",
+  modalContent: (
+    <>
+      <p>
+        Multiple bento blocks packed with beautiful grids
+      </p>
+     
+    </>
+  ),
+},
   {
     title: "NFT Dapp",
     imgSrc: "project-imgs/nft-site.png",
